@@ -1,0 +1,90 @@
+footer { font-size: 11px; text-align: center; }
+footer a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: hsl(0, 0%, 95%);
+    }
+
+    main{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-top: 10em;
+    }
+
+    section{
+      height: 30rem;
+      padding: 3rem;
+    }
+
+    h1{
+      font-size: 2.5em;
+      font-family: 'Big Shoulders Display';
+      text-transform: uppercase;
+      color: hsl(0, 0%, 95%);
+    }
+
+    p{
+      font-family: 'Lexend Deca';
+      color: hsla(0, 0%, 100%, 0.75);
+      font-size: 18px;
+      display: inline-block;
+      line-height: 27px;
+    }
+    .sedans{
+      background-color: hsl(31, 77%, 52%);
+      width: 16rem;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    .suvs{
+      background-color: hsl(184, 100%, 22%);
+      width: 16rem;
+    }
+
+    .luxury{
+      background-color: hsl(179, 100%, 13%);
+      width: 16rem;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .btn-sedans{
+      padding: 18px;
+      width: 10rem;
+      border: none;
+      border-radius: 25px;
+      margin-top: 4em;
+      font-family: 'Lexend Deca';
+      font-size: 15px;
+      color: hsl(31, 77%, 52%);
+    }
+
+    .btn-suvs{
+      padding: 18px;
+      width: 10rem;
+      border: none;
+      border-radius: 25px;
+      margin-top: 4em;
+      font-family: 'Lexend Deca';
+      font-size: 15px;
+      color: hsl(184, 100%, 22%);
+    }
+
+    .btn-luxury{
+      padding: 18px;
+      width: 10rem;
+      border: none;
+      border-radius: 25px;
+      margin-top: 4em;
+      font-family: 'Lexend Deca';
+      font-size: 15px;
+      color:  hsl(179, 100%, 13%);
+    }
+
+    button:hover{
+      cursor: pointer;
+    }
